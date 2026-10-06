@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Perpustakaan SMA Telkom</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"on-secondary-container": "#586579", "inverse-on-surface": "#ebf1ff", "primary-fixed": "#ffdad9", "on-tertiary-container": "#e5eced", "surface-variant": "#d5e3ff", "on-secondary": "#ffffff", "tertiary-fixed": "#dde4e5", secondary: "#525f73", "error-container": "#ffdad6", outline: "#916f6c", "inverse-primary": "#ffb3b2", "on-background": "#021c3a", "surface-container-low": "#f0f3ff", "on-tertiary": "#ffffff", "surface-container-highest": "#d5e3ff", "on-primary-container": "#ffe5e4", "on-secondary-fixed-variant": "#3b485a", "surface-bright": "#f9f9ff", "secondary-fixed": "#d6e3fb", "outline-variant": "#e6bdb9", "on-error-container": "#93000a", "on-primary": "#ffffff", "surface-container-high": "#dee8ff", "surface-dim": "#c7dbff", "secondary-container": "#d6e3fb", surface: "#f9f9ff", "tertiary-container": "#646b6c", "primary-fixed-dim": "#ffb3b2", "surface-tint": "#bd0a2e", "secondary-fixed-dim": "#bac7de", background: "#f9f9ff", "inverse-surface": "#1b3150", primary: "#a70025", "on-tertiary-fixed-variant": "#414849", "on-secondary-fixed": "#0f1c2d", "on-primary-fixed-variant": "#92001f", "on-surface": "#021c3a", "on-primary-fixed": "#410008", "primary-container": "#ce1e38", "surface-container": "#e7eeff", "tertiary-fixed-dim": "#c1c8c9", error: "#ba1a1a", "on-tertiary-fixed": "#161d1e", "on-surface-variant": "#5d3f3d", tertiary: "#4c5354", "surface-container-lowest": "#ffffff", "on-error": "#ffffff"}, borderRadius: {DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px"}, spacing: {"space-md": "1rem", "margin-sm": "1rem", "space-lg": "1.5rem", "gutter-sm": "0.75rem", "space-xs": "0.25rem", gutter: "1.5rem", margin: "1.5rem", "margin-lg": "2.5rem", "space-xl": "2rem", "space-sm": "0.5rem", "gutter-lg": "2rem"}, fontFamily: {"headline-sm": ["Plus Jakarta Sans"], "body-md": ["Inter"], "body-lg": ["Inter"], "display-lg-mobile": ["Plus Jakarta Sans"], "label-sm": ["Inter"], "display-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-md": ["Inter"], "label-lg": ["Inter"], "headline-xl": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "body-sm": ["Inter"], headline: ["Plus Jakarta Sans"], display: ["Plus Jakarta Sans"], body: ["Inter"], label: ["Inter"]}, fontSize: {"headline-sm": ["16px", {lineHeight: "24px", letterSpacing: "0", fontWeight: "600"}], "body-md": ["14px", {lineHeight: "22px", letterSpacing: "0", fontWeight: "400"}], "body-lg": ["16px", {lineHeight: "26px", letterSpacing: "-0.005em", fontWeight: "400"}], "display-lg-mobile": ["30px", {lineHeight: "38px", letterSpacing: "-0.015em", fontWeight: "800"}], "label-sm": ["11px", {lineHeight: "14px", letterSpacing: "0.04em", fontWeight: "700"}], "display-lg": ["40px", {lineHeight: "48px", letterSpacing: "-0.02em", fontWeight: "800"}], "headline-lg": ["24px", {lineHeight: "32px", letterSpacing: "-0.01em", fontWeight: "700"}], "label-md": ["12px", {lineHeight: "16px", letterSpacing: "0.02em", fontWeight: "600"}], "label-lg": ["14px", {lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "600"}], "headline-xl": ["32px", {lineHeight: "40px", letterSpacing: "-0.015em", fontWeight: "700"}], "headline-xl-mobile": ["24px", {lineHeight: "32px", letterSpacing: "-0.01em", fontWeight: "700"}], "headline-md": ["20px", {lineHeight: "28px", letterSpacing: "-0.005em", fontWeight: "600"}], "body-sm": ["12px", {lineHeight: "18px", letterSpacing: "0.01em", fontWeight: "400"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface min-h-screen flex flex-col"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-margin-lg flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-md"><img alt="Perpustakaan SMA Telkom Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Ve8yofKCDogVzH2byS4wssTghfRH0h3rfHI0M7LaDdAknzy6pFJ2jqmC0KKbRmzfFz7U5mWx4v77joVdpQGs2a_HijIAJVhJeGxDgfrWI5gHjI7TEO6JecblmI2d18q9JtQeYyAXapounr_ms4NbZw_Iwa--i2_FOdcf_xL6260nfUwnmwK7d9FHkjwUlVf6eMnNZfmWHTiTVLw9o63MvHSUwfPlZx6rULubXkxzQKpSlZygDNyrpIGTJj"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight uppercase leading-none">PERPUSTAKAAN SMA TELKOM</span><span class="font-label-sm text-label-sm text-secondary font-medium tracking-normal mt-space-xs">Sistem Presensi Kunjungan &amp; Sirkulasi Buku</span></div></div><nav class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-xl" data-active-classes="bg-primary text-on-primary font-label-md rounded-lg shadow-sm"><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high rounded-lg transition-colors whitespace-nowrap" data-path="presensi-kunjungan-siswa" href="#">Presensi Kunjungan Siswa</a><a aria-current="page" class="px-space-md py-space-sm transition-colors whitespace-nowrap bg-primary text-on-primary font-label-md rounded-lg shadow-sm" data-path="daftar-buku" href="#">Daftar Buku</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high rounded-lg transition-colors whitespace-nowrap" data-path="buku-dipinjam" href="#">Buku Dipinjam</a></nav></div><div class="flex items-center gap-space-md"><div class="hidden xl:flex items-center gap-space-xs bg-surface-container-low px-space-md py-space-xs rounded-full text-secondary font-label-md text-label-md"><span class="material-symbols-outlined text-base">schedule</span><span>Senin, 14 Okt 2024 • 08.45 WIB</span></div><div class="relative hidden lg:flex items-center"><span class="material-symbols-outlined absolute left-space-md text-secondary text-base pointer-events-none">search</span><input class="w-60 h-10 pl-9 pr-space-md rounded-lg bg-surface-container-low font-body-sm text-body-sm text-on-surface placeholder:text-secondary focus:outline-none focus:bg-surface-container-lowest transition-colors" placeholder="Cari NISN, barcode, atau judul..." type="text"/></div><button class="w-10 h-10 rounded-lg flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors relative" type="button"><span class="material-symbols-outlined">notifications</span><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-primary"></span></button><div class="flex items-center gap-space-sm pl-space-xs"><div class="flex flex-col text-right hidden sm:flex"><span class="font-label-md text-label-md text-on-surface leading-tight">Ibu Nurul Aini, S.Pd.</span><span class="font-label-sm text-label-sm text-secondary font-medium">Pustakawan SMA Telkom</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfk25P-O7hcQcvfeM4IkaNNVwCdToD_GgVfSFSZvNVdlTuppNw4XhJQF_VZOu_uZHUjJO5pv_UKlhKswmGAQXGHYqAC2fdeG2UszPXvcwCqzy9qbdS7kOKCdhnIigvWgjBb1s-MuKJXS6GBC9vrn4RYQv0SbTXMIOnzBSwBFe5AXnh-eTcT4cHlZLJT38nACWTd0sjzlrYB3ENs74ZSIwl9KPm0hhTRORqfMETtd5dcXDwQcmVijvI6w"/></div></div></div></header><main class="w-full pt-20 bg-background flex-1 px-margin-lg py-gutter"><div class="flex flex-col w-full">
+<!-- Top Operational Context Ribbon -->
+<div class="relative w-full rounded-xl bg-gradient-to-r from-surface-container-high via-surface-container to-surface-container-low p-space-lg shadow-sm overflow-hidden mb-space-lg">
+<div class="absolute -right-12 -top-12 w-64 h-64 rounded-full bg-primary/5 blur-3xl pointer-events-none"></div>
+<div class="absolute right-48 -bottom-10 w-44 h-44 rounded-full bg-tertiary/5 blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col xl:flex-row xl:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm tracking-wide uppercase">
+<span class="material-symbols-outlined text-sm">menu_book</span>
+            Katalog Induk Terintegrasi
+          </span>
+<span class="font-label-sm text-label-sm text-secondary tracking-normal">SMA Telkom Bandung • Tahun Ajaran 2024/2025</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">Katalog Koleksi &amp; Pustaka Digital</h1>
+<p class="font-body-md text-body-md text-secondary max-w-2xl">
+          Eksplorasi literatur kurikulum merdeka, referensi teknologi telekomunikasi terapan, sains komputasi, serta materi literasi mandiri siswa.
+        </p>
+</div>
+<!-- Quick Actions for Librarians & Operations -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<button class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-lg bg-surface-container-lowest text-secondary hover:text-on-surface shadow-sm hover:shadow transition-all font-label-md text-label-md" type="button">
+<span class="material-symbols-outlined text-base">upload_file</span>
+<span>Import Excel</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-lg bg-surface-container-lowest text-secondary hover:text-on-surface shadow-sm hover:shadow transition-all font-label-md text-label-md" type="button">
+<span class="material-symbols-outlined text-base">barcode_scanner</span>
+<span>Cetak Barcode</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-lg bg-primary hover:bg-primary-container text-on-primary shadow-sm hover:shadow transition-all font-label-md text-label-md" id="btn-tambah-buku" type="button">
+<span class="material-symbols-outlined text-base">add_circle</span>
+<span>Tambah Buku Baru</span>
+</button>
+</div>
+</div>
+<!-- Live Inventory Stat Chips -->
+<div class="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-space-sm mt-space-lg pt-space-md bg-surface-container-lowest/80 backdrop-blur-sm rounded-xl p-space-md shadow-sm">
+<div class="flex items-center gap-space-sm px-space-xs">
+<div class="w-10 h-10 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined">library_books</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Total Eksemplar</span>
+<span class="font-headline-md text-headline-md text-on-surface font-bold leading-tight">4.850</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm px-space-xs">
+<div class="w-10 h-10 rounded-lg bg-tertiary/10 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined">auto_stories</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Judul Koleksi Aktif</span>
+<span class="font-headline-md text-headline-md text-on-surface font-bold leading-tight">1.420</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm px-space-xs">
+<div class="w-10 h-10 rounded-lg bg-secondary-container text-on-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined">sync_alt</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Sedang Dipinjam</span>
+<span class="font-headline-md text-headline-md text-primary font-bold leading-tight">320</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm px-space-xs">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high text-on-surface flex items-center justify-center">
+<span class="material-symbols-outlined">shelves</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Kapasitas Rak Pustaka</span>
+<span class="font-headline-md text-headline-md text-on-surface font-bold leading-tight">88.4%</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Search & Multi-Level Filtering Deck -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-md mb-space-lg flex flex-col gap-space-md">
+<!-- Big Search Bar -->
+<div class="relative w-full">
+<div class="absolute inset-y-0 left-0 pl-space-md flex items-center pointer-events-none text-secondary">
+<span class="material-symbols-outlined text-xl">search</span>
+</div>
+<input class="w-full h-12 pl-12 pr-28 rounded-lg bg-surface-container-low text-on-surface placeholder:text-secondary font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none transition-colors" id="catalog-search-input" placeholder="Cari judul buku, penulis, penerbit, nomor ISBN, atau topik pelajaran..." type="text"/>
+<div class="absolute inset-y-0 right-0 pr-space-sm flex items-center gap-space-xs">
+<span class="hidden sm:inline-flex text-secondary font-label-sm text-label-sm px-space-xs py-0.5 bg-surface-container rounded">Alt + K</span>
+<button class="w-9 h-9 rounded-lg bg-primary text-on-primary flex items-center justify-center hover:bg-primary-container transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Category Filter Chips Row -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-1 scrollbar-none">
+<button class="category-chip px-space-md py-1.5 rounded-full font-label-md text-label-md whitespace-nowrap transition-colors bg-primary text-on-primary shadow-sm" data-category="all" type="button">
+        Semua Kategori
+      </button>
+<button class="category-chip px-space-md py-1.5 rounded-full font-label-md text-label-md whitespace-nowrap transition-colors bg-surface-container-low text-secondary hover:text-on-surface hover:bg-surface-container-high" data-category="tech" type="button">
+        Teknologi &amp; IT
+      </button>
+<button class="category-chip px-space-md py-1.5 rounded-full font-label-md text-label-md whitespace-nowrap transition-colors bg-surface-container-low text-secondary hover:text-on-surface hover:bg-surface-container-high" data-category="science" type="button">
+        Matematika &amp; Sains
+      </button>
+<button class="category-chip px-space-md py-1.5 rounded-full font-label-md text-label-md whitespace-nowrap transition-colors bg-surface-container-low text-secondary hover:text-on-surface hover:bg-surface-container-high" data-category="soshum" type="button">
+        Sosial Humaniora (SOSHUM)
+      </button>
+<button class="category-chip px-space-md py-1.5 rounded-full font-label-md text-label-md whitespace-nowrap transition-colors bg-surface-container-low text-secondary hover:text-on-surface hover:bg-surface-container-high" data-category="literature" type="button">
+        Sastra &amp; Fiksi
+      </button>
+<button class="category-chip px-space-md py-1.5 rounded-full font-label-md text-label-md whitespace-nowrap transition-colors bg-surface-container-low text-secondary hover:text-on-surface hover:bg-surface-container-high" data-category="kurikulum" type="button">
+        Buku Paket Kurikulum Merdeka
+      </button>
+<button class="category-chip px-space-md py-1.5 rounded-full font-label-md text-label-md whitespace-nowrap transition-colors bg-surface-container-low text-secondary hover:text-on-surface hover:bg-surface-container-high" data-category="selfdev" type="button">
+        Pengembangan Diri
+      </button>
+</div>
+<!-- Secondary Filter Bar & View Layout Switch -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm pt-space-xs">
+<div class="flex flex-wrap items-center gap-space-sm">
+<!-- Status Dropdown -->
+<div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-1.5 rounded-lg text-secondary">
+<span class="material-symbols-outlined text-sm">tune</span>
+<span class="font-label-sm text-label-sm font-semibold uppercase">Status:</span>
+<select class="bg-transparent text-on-surface font-label-md text-label-md focus:outline-none cursor-pointer">
+<option>Semua Ketersediaan</option>
+<option>Tersedia di Rak Saja</option>
+<option>Sedang Dipinjam Penuh</option>
+</select>
+</div>
+<!-- Rak Dropdown -->
+<div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-1.5 rounded-lg text-secondary">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span class="font-label-sm text-label-sm font-semibold uppercase">Lokasi:</span>
+<select class="bg-transparent text-on-surface font-label-md text-label-md focus:outline-none cursor-pointer">
+<option>Semua Rak (A - F)</option>
+<option>Rak A (Sains &amp; Matematika)</option>
+<option>Rak B (Teknik &amp; Komputer)</option>
+<option>Rak C (Teknologi &amp; Telekomunikasi)</option>
+<option>Rak D (Sosial &amp; Bahasa)</option>
+<option>Rak E (Koleksi Kurikulum Merdeka)</option>
+<option>Rak F (Karya Fiksi &amp; Majalah)</option>
+</select>
+</div>
+<!-- Year Dropdown -->
+<div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-1.5 rounded-lg text-secondary">
+<span class="material-symbols-outlined text-sm">calendar_month</span>
+<span class="font-label-sm text-label-sm font-semibold uppercase">Tahun:</span>
+<select class="bg-transparent text-on-surface font-label-md text-label-md focus:outline-none cursor-pointer">
+<option>Semua Tahun</option>
+<option>2024 (Edisi Terbaru)</option>
+<option>2023</option>
+<option>2022</option>
+<option>2021 &amp; sebelumnya</option>
+</select>
+</div>
+</div>
+<!-- View Switcher & Result Count -->
+<div class="flex items-center justify-between md:justify-end gap-space-md">
+<span class="font-label-sm text-label-sm text-secondary">Menampilkan <b class="text-on-surface font-bold">8</b> dari 1.420 judul</span>
+<div class="flex items-center bg-surface-container-low p-1 rounded-lg">
+<button class="w-8 h-8 rounded flex items-center justify-center bg-surface-container-lowest text-primary shadow-sm transition-all" id="view-grid-btn" title="Grid View" type="button">
+<span class="material-symbols-outlined text-lg">grid_view</span>
+</button>
+<button class="w-8 h-8 rounded flex items-center justify-center text-secondary hover:text-on-surface transition-all" id="view-table-btn" title="Table View" type="button">
+<span class="material-symbols-outlined text-lg">view_list</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- BOOK CATALOG: GRID VIEW (Default) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-gutter mb-space-xl" id="catalog-grid">
+<!-- Card 1: Telekomunikasi & IoT -->
+<div class="group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between overflow-hidden">
+<div>
+<div class="relative w-full h-52 bg-surface-container-high overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Modern educational book cover for Telecommunication Fundamentals and IoT featuring clean geometric fiber optic nodes and digital signal waves in Telkom crimson red and slate navy palette, minimal academic graphic design" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNtaMGeilOkZDi6roon6OH2Uc0K8aDoVcQWeisRyo_y2XnC5njU6V4M5bMNfoRBGyBZtHcS0h7GvwYdIyWXG4q9C3SkjYn-VgceH3h_ALjiHAIXv-TEDxtfg4_VdpTHV7Jfm7eH50I9lppCUQceMHzmpapPIq9rxSIak8_haVMinduzURyKJwQgb2lQZr8dmhQYwbhdGTRIPuBFhj3_-jozUtK03aRYHOqaGL_K3WruOmflDIo1O6Sjw"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1">
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">
+              004.6 DAS
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-tertiary-container/90 backdrop-blur-sm text-on-tertiary font-label-sm text-label-sm font-semibold shadow-sm">
+              Teknologi &amp; IT
+            </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>
+              Tersedia: 4 / 6 Eks
+            </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm">room</span>
+<span>Rak C-02 Telekomunikasi</span>
+<span>•</span>
+<span>Thn 2023</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+            Dasar-Dasar Jaringan Telekomunikasi &amp; IoT
+          </h2>
+<p class="font-body-sm text-body-sm text-secondary">
+            Dr. Eng. Fajar Gumilang • <span class="text-on-surface font-medium">Telkom University Press</span>
+</p>
+<p class="font-body-sm text-body-sm text-secondary/80 line-clamp-2 mt-1">
+            Pengenalan protokol IPv6, perancangan sensor edge, dan implementasi jaringan nirkabel pada infrastruktur industri telekomunikasi modern.
+          </p>
+</div>
+</div>
+<div class="p-space-md pt-0 flex items-center gap-space-xs">
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface text-center font-label-md text-label-md transition-colors" onclick="openDetailModal('Dasar-Dasar Jaringan Telekomunikasi &amp; IoT', 'Dr. Eng. Fajar Gumilang', 'Telkom University Press', '004.6 DAS', 'Rak C-02 Telekomunikasi', '4 / 6 Eksemplar', '978-602-8910-12-8', 'Buku referensi kejuruan teknik telekomunikasi tingkat menengah atas, mencakup modul simulasi Packet Tracer, antena mikrostip, dan dasar protokol MQTT untuk Internet of Things.')" type="button">
+          Detail Buku
+        </button>
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-primary hover:bg-primary-container text-on-primary text-center font-label-md text-label-md transition-colors shadow-sm" onclick="openBorrowModal('Dasar-Dasar Jaringan Telekomunikasi &amp; IoT', '004.6 DAS', 'Rak C-02')" type="button">
+          Pinjam Buku
+        </button>
+</div>
+</div>
+<!-- Card 2: Fisika Kuantum SMA -->
+<div class="group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between overflow-hidden">
+<div>
+<div class="relative w-full h-52 bg-surface-container-high overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Cover of high school physics textbook titled Quantum Physics for SMA featuring stylized atom orbit rings wave-particle duality schematic diagrams in deep slate navy and glowing teal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1jKiXjp432JEQva6oVPbJc_Q0JrhopFUhk97MkCjJ2kA4KYJ0HGi8P1yeOiUwr0NMtm5l92LPCjFyrEGQ6l77joScu1JcqSUAmEFDckGLe1kMVDl7pbz1iDgIvjfTDjcz12w6VzqA2x9-n5jeRg0Ikbsnv4a9XP9B1HcLtVAMhzrqMfo398EMb7IjX2_YOrdidUc36XXQsEYJxLfBV7cIae8R79gVtxftry2TT4h2slbzBMzvIqu-_g"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1">
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">
+              530 FIS
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container/90 backdrop-blur-sm text-on-secondary-fixed font-label-sm text-label-sm font-semibold shadow-sm">
+              Sains SMA
+            </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>
+              Tersedia: 8 / 10 Eks
+            </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm">room</span>
+<span>Rak A-01 Sains Alam</span>
+<span>•</span>
+<span>Thn 2024</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+            Fisika Kuantum &amp; Relativitas untuk Siswa SMA
+          </h2>
+<p class="font-body-sm text-body-sm text-secondary">
+            Prof. Joko Hendro, M.Sc. • <span class="text-on-surface font-medium">Penerbit Erlangga</span>
+</p>
+<p class="font-body-sm text-body-sm text-secondary/80 line-clamp-2 mt-1">
+            Penjelasan terkonseptualisasi mengenai radiasi benda hitam, efek fotolistrik, hingga teori relativitas khusus Einstein dengan analogi visual.
+          </p>
+</div>
+</div>
+<div class="p-space-md pt-0 flex items-center gap-space-xs">
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface text-center font-label-md text-label-md transition-colors" onclick="openDetailModal('Fisika Kuantum &amp; Relativitas untuk Siswa SMA', 'Prof. Joko Hendro, M.Sc.', 'Penerbit Erlangga', '530 FIS', 'Rak A-01 Sains Alam', '8 / 10 Eksemplar', '978-602-019-332-1', 'Buku pendamping olimpiade fisika dan pengayaan kurikulum SMA tingkat lanjut dengan kompilasi soal pembuktian rumus secara ringkas.')" type="button">
+          Detail Buku
+        </button>
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-primary hover:bg-primary-container text-on-primary text-center font-label-md text-label-md transition-colors shadow-sm" onclick="openBorrowModal('Fisika Kuantum &amp; Relativitas untuk Siswa SMA', '530 FIS', 'Rak A-01')" type="button">
+          Pinjam Buku
+        </button>
+</div>
+</div>
+<!-- Card 3: Sejarah Indonesia Modern Kelas XI -->
+<div class="group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between overflow-hidden">
+<div>
+<div class="relative w-full h-52 bg-surface-container-high overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Cover of Indonesian Modern History textbook for Grade 11 with subtle archival sepia photograph tones, bold Indonesian typographic title, and elegant emblem header" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWLGHqXjhEy1DcwhbfvrWbQ_TtxAntF8milCQ12zKYz0QG9QbsB5w6X-b0K0X5XEpr1LO9-9R12vJubbiDDEPyBfFYFcIvwGKQOjkln8AvMWjfaU3TYlbEsttwS-wWxf387PjuG5h6zdHGrwkAqDX9oXySKB7Ka3eRSxJr7c1CRAACtnObFo7EyUuxenUDF3J_jd8H6TZ0duZvf_rOMK4PFL08SLX9GHy4HHr7cy3WN4Jopsj2kD5Z4w"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1">
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">
+              959.8 SEJ
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-highest text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">
+              Kurikulum Merdeka
+            </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-900 text-xs font-semibold shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-amber-600"></span>
+              Habis Dipinjam (Sisa 0/15)
+            </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm">room</span>
+<span>Rak E-03 Kurikulum</span>
+<span>•</span>
+<span>Thn 2024</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+            Sejarah Indonesia Modern: Era Pergerakan hingga Reformasi (Kelas XI)
+          </h2>
+<p class="font-body-sm text-body-sm text-secondary">
+            Tim Kemendikbudristek • <span class="text-on-surface font-medium">Balai Pustaka &amp; Pusat Kurikulum</span>
+</p>
+<p class="font-body-sm text-body-sm text-secondary/80 line-clamp-2 mt-1">
+            Menganalisis perjuangan diplomasi, perkembangan ekonomi masa kemerdekaan, serta reposisi geopolitik Indonesia di kancah internasional.
+          </p>
+</div>
+</div>
+<div class="p-space-md pt-0 flex items-center gap-space-xs">
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface text-center font-label-md text-label-md transition-colors" onclick="openDetailModal('Sejarah Indonesia Modern: Era Pergerakan hingga Reformasi (Kelas XI)', 'Tim Kemendikbudristek', 'Balai Pustaka', '959.8 SEJ', 'Rak E-03 Kurikulum', 'Habis Dipinjam (0/15 Eks)', '978-602-244-651-4', 'Buku teks utama siswa fase F Kurikulum Merdeka. Seluruh 15 eksemplar saat ini beredar dalam sistem peminjaman kelas XI-IPA.')" type="button">
+          Detail Buku
+        </button>
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-surface-container-high text-secondary/60 text-center font-label-md text-label-md cursor-not-allowed" disabled="" type="button">
+          Reservasi Antrean
+        </button>
+</div>
+</div>
+<!-- Card 4: Algoritma & Struktur Data Pemula -->
+<div class="group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between overflow-hidden">
+<div>
+<div class="relative w-full h-52 bg-surface-container-high overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Cover of computer science textbook for high school students showing stylized binary tree graph and Python code snippets on clean dark aesthetic background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBz-C1-1DqQTLaAL6lXHOWOH6AKAQGsQaoVkyrxhRm5ipEV9P4NFaqkjEzZVz-xXvSItgVDSxBt8wvzFZf9OzGH8rxLfG5PC7uqShpuYFIVr-lOYBgyJWeEnaUrFXnz5fMqOnBAja7j79xuBr1V67qUak0KYYzjcgTPR9_Mhb_gAZBywvT6Wa9yHLXzyjkuL0Pv4MJ2L750Rq-LSV4Z2-PgfQcnuzxem3-7kF6NYkhKF23y0yWDC6EANg"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1">
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">
+              005.1 ALG
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-tertiary-container/90 backdrop-blur-sm text-on-tertiary font-label-sm text-label-sm font-semibold shadow-sm">
+              Informatika
+            </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>
+              Tersedia: 5 / 5 Eks
+            </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm">room</span>
+<span>Rak B-04 Komputer</span>
+<span>•</span>
+<span>Thn 2023</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+            Algoritma &amp; Struktur Data Pemula dengan Python
+          </h2>
+<p class="font-body-sm text-body-sm text-secondary">
+            Rian Adiputra, M.Kom. • <span class="text-on-surface font-medium">Informatika Bandung</span>
+</p>
+<p class="font-body-sm text-body-sm text-secondary/80 line-clamp-2 mt-1">
+            Latihan komputasi terstruktur: array, linked list, rekursi, serta algoritma pencarian &amp; pengurutan untuk persiapan Olimpiade Sains Nasional (OSN).
+          </p>
+</div>
+</div>
+<div class="p-space-md pt-0 flex items-center gap-space-xs">
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface text-center font-label-md text-label-md transition-colors" onclick="openDetailModal('Algoritma &amp; Struktur Data Pemula dengan Python', 'Rian Adiputra, M.Kom.', 'Informatika Bandung', '005.1 ALG', 'Rak B-04 Komputer', '5 / 5 Eksemplar', '978-623-7131-09-0', 'Buku pegangan siswa peminatan Rekayasa Perangkat Lunak dan Informatika SMA Telkom, dilengkapi 50 studi kasus live coding.')" type="button">
+          Detail Buku
+        </button>
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-primary hover:bg-primary-container text-on-primary text-center font-label-md text-label-md transition-colors shadow-sm" onclick="openBorrowModal('Algoritma &amp; Struktur Data Pemula dengan Python', '005.1 ALG', 'Rak B-04')" type="button">
+          Pinjam Buku
+        </button>
+</div>
+</div>
+<!-- Card 5: Sosiologi Masyarakat Digital -->
+<div class="group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between overflow-hidden">
+<div>
+<div class="relative w-full h-52 bg-surface-container-high overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Cover of sociological study book on digital society showing interconnected human silhouettes and data mesh networks in warm vermillion and slate accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnhdB4TY4p_Pp9W6UGAKY1OFRxIa3OJRUeJyGhNXCJVO7Ww9VgYmwJxH71ocAiAWCtSivAZvfqslHngDQWHiKTHiY0B-EONXzncRVzVvoarZ00e8ePpzK_Koaq3APgd5sEhy3T5D_Q-egdrMIrJ2V22HaPo-WoMoZM33Z6tyuPs5VMDw_7z9hrM2l7tpubF4xfz-9c6WkrVUj_PQlH_5Vb9N6aozs4L5r3PiNcK1DuXV6p43YhZWBfbA"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1">
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">
+              301 SOS
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-highest text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">
+              SOSHUM
+            </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>
+              Tersedia: 2 / 4 Eks
+            </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm">room</span>
+<span>Rak D-02 Sosial Humaniora</span>
+<span>•</span>
+<span>Thn 2022</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+            Sosiologi Masyarakat Digital &amp; Transformasi Komunikasi
+          </h2>
+<p class="font-body-sm text-body-sm text-secondary">
+            Dra. Melani Wibowo • <span class="text-on-surface font-medium">Rajawali Pers</span>
+</p>
+<p class="font-body-sm text-body-sm text-secondary/80 line-clamp-2 mt-1">
+            Dinamika interaksi media sosial, fenomena disinformasi, etika digital, dan pergeseran norma kultural di kalangan remaja generasi alfa.
+          </p>
+</div>
+</div>
+<div class="p-space-md pt-0 flex items-center gap-space-xs">
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface text-center font-label-md text-label-md transition-colors" onclick="openDetailModal('Sosiologi Masyarakat Digital &amp; Transformasi Komunikasi', 'Dra. Melani Wibowo', 'Rajawali Pers', '301 SOS', 'Rak D-02 Sosial Humaniora', '2 / 4 Eksemplar', '978-979-769-902-5', 'Diktat pembelajaran esensial untuk penulisan karya ilmiah remaja bidang humaniora dan sosiologi praktis.')" type="button">
+          Detail Buku
+        </button>
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-primary hover:bg-primary-container text-on-primary text-center font-label-md text-label-md transition-colors shadow-sm" onclick="openBorrowModal('Sosiologi Masyarakat Digital &amp; Transformasi Komunikasi', '301 SOS', 'Rak D-02')" type="button">
+          Pinjam Buku
+        </button>
+</div>
+</div>
+<!-- Card 6: Matematika Tingkat Lanjut Kelas XII -->
+<div class="group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between overflow-hidden">
+<div>
+<div class="relative w-full h-52 bg-surface-container-high overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Cover of advanced high school calculus and algebra textbook featuring 3D vector geometry coordinate axes and smooth gradient curves in deep navy and crimson" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZ7aFNYxNexbT_gwyRnHzUdBmiDXZZbjIQa7dEyRh9nSmQ-SuDhJRzMWEylFR8Kj34IU-5XofiZXgQEC2gFRIHcRh7n8__PyYPC9aXgFN9_8cSYU-SwtFXz7HNJqAsfSgkNb7jeY3Q3wdbBbW4NjNdOZ6A08Bl7xc3hjOUMTRMpCKFkB8NR9URgYvoe0SXEwzz6vuzR6HfHlEYQtCH2sl8y7KMfm0Osdo1ctv5cHcepg5q0p0SQjL2_A"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1">
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">
+              510 MAT
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-highest text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">
+              Paket Utama XII
+            </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>
+              Tersedia: 11 / 18 Eks
+            </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm">room</span>
+<span>Rak E-01 Kurikulum</span>
+<span>•</span>
+<span>Thn 2024</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+            Matematika Tingkat Lanjut Kelas XII (Vektor &amp; Kalkulus)
+          </h2>
+<p class="font-body-sm text-body-sm text-secondary">
+            Dr. Susanto &amp; Tim Guru Inti • <span class="text-on-surface font-medium">Yrama Widya</span>
+</p>
+<p class="font-body-sm text-body-sm text-secondary/80 line-clamp-2 mt-1">
+            Modul pengayaan kalkulus diferensial, integral lipat, matriks transformasi, dan distribusi peluang statistik untuk persiapan SNBT-UTBK.
+          </p>
+</div>
+</div>
+<div class="p-space-md pt-0 flex items-center gap-space-xs">
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface text-center font-label-md text-label-md transition-colors" onclick="openDetailModal('Matematika Tingkat Lanjut Kelas XII (Vektor &amp; Kalkulus)', 'Dr. Susanto &amp; Tim Guru Inti', 'Yrama Widya', '510 MAT', 'Rak E-01 Kurikulum', '11 / 18 Eksemplar', '978-602-374-881-9', 'Materi komprehensif pendukung kurikulum merdeka peminatan saintek sekolah menengah atas.')" type="button">
+          Detail Buku
+        </button>
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-primary hover:bg-primary-container text-on-primary text-center font-label-md text-label-md transition-colors shadow-sm" onclick="openBorrowModal('Matematika Tingkat Lanjut Kelas XII (Vektor &amp; Kalkulus)', '510 MAT', 'Rak E-01')" type="button">
+          Pinjam Buku
+        </button>
+</div>
+</div>
+<!-- Card 7: Literasi Sains & Robotika -->
+<div class="group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between overflow-hidden">
+<div>
+<div class="relative w-full h-52 bg-surface-container-high overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Cover of robotics and science literacy project book showing microcontroller board Arduino servo motors and robotic arm blueprint in technical modern aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDX3OeLuBkLk-u2aHVqu0diBJP2dW7obZ_BAZPBtXZxJ-C6nc6eVkCVpTEh9ssFJ2sZyTEI-MmZFFgZ4RNMS8neLSHnmBivQZ8n4mKLupWn3fcUXyNtjTF6DPki2uoWkF18jWpnFhdh2zjSNTNa2YrYRNolys-alhGdwKG_Gu7NtoKtbxzYqUIDhMMUQVoQtl7NXHdKEdN4G14ElPeCb4JYsO4wcZ8BS29GeiAWTgAyjy8TXclxUzZ-HA"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1">
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">
+              629.8 ROB
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-tertiary-container/90 backdrop-blur-sm text-on-tertiary font-label-sm text-label-sm font-semibold shadow-sm">
+              Ekskul STEM
+            </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>
+              Tersedia: 3 / 3 Eks
+            </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm">room</span>
+<span>Rak C-05 Robotika</span>
+<span>•</span>
+<span>Thn 2023</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+            Literasi Sains &amp; Robotika: Proyek IoT Siswa Cerdas
+          </h2>
+<p class="font-body-sm text-body-sm text-secondary">
+            Bambang Wicaksono, S.T. • <span class="text-on-surface font-medium">Andi Publisher</span>
+</p>
+<p class="font-body-sm text-body-sm text-secondary/80 line-clamp-2 mt-1">
+            Petunjuk perakitan sensor jarak ultrasonik, smart greenhouse mini, dan robot line follower berbasis ESP32 untuk perlombaan sains.
+          </p>
+</div>
+</div>
+<div class="p-space-md pt-0 flex items-center gap-space-xs">
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface text-center font-label-md text-label-md transition-colors" onclick="openDetailModal('Literasi Sains &amp; Robotika: Proyek IoT Siswa Cerdas', 'Bambang Wicaksono, S.T.', 'Andi Publisher', '629.8 ROB', 'Rak C-05 Robotika', '3 / 3 Eksemplar', '978-623-01-2200-4', 'Buku praktikum pembina ekstrakurikuler Robotika dan Klub Komputer SMA Telkom.')" type="button">
+          Detail Buku
+        </button>
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-primary hover:bg-primary-container text-on-primary text-center font-label-md text-label-md transition-colors shadow-sm" onclick="openBorrowModal('Literasi Sains &amp; Robotika: Proyek IoT Siswa Cerdas', '629.8 ROB', 'Rak C-05')" type="button">
+          Pinjam Buku
+        </button>
+</div>
+</div>
+<!-- Card 8: Ekonomi Moneter & Perbankan -->
+<div class="group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between overflow-hidden">
+<div>
+<div class="relative w-full h-52 bg-surface-container-high overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Cover of modern economics and monetary textbook featuring stock exchange candlestick trendlines, central banking vault motif, clean corporate typography in rich burgundy and bronze" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1BNi51yAnuOOCoJXDrUuhmIabYZswdZQzg-YtARSaqdvPFJJCY1ij08ZYTU0CFHDaI_FKwH6Vv1fkt-_3WIELmQgHOQE5yfHawnmxD7hWSso_3QIQhHG9pCB435viRPJNyZAuL3shx1iHfm4zBQx0AXU_JmzeRyg5LJktjaXClFuaUYRYDcbeovD92lUaPaG7EmCd2XWQfsbgvHWLxXTfHVJ9P0rPW3ARfVXK4fDOs1LBVAE6t3MMfA"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1">
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">
+              332 EKO
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-highest text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">
+              SOSHUM
+            </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>
+              Tersedia: 3 / 6 Eks
+            </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm">room</span>
+<span>Rak D-04 Ekonomi</span>
+<span>•</span>
+<span>Thn 2023</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+            Ekonomi Moneter, Inflasi, &amp; Sistem Pembayaran Digital
+          </h2>
+<p class="font-body-sm text-body-sm text-secondary">
+            Dr. Siti Rahmania, S.E. • <span class="text-on-surface font-medium">Salemba Empat</span>
+</p>
+<p class="font-body-sm text-body-sm text-secondary/80 line-clamp-2 mt-1">
+            Membahas kebijakan Bank Indonesia, stabilitas sistem keuangan, QRIS, e-wallet, dan manajemen portofolio dasar bagi pelajar.
+          </p>
+</div>
+</div>
+<div class="p-space-md pt-0 flex items-center gap-space-xs">
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface text-center font-label-md text-label-md transition-colors" onclick="openDetailModal('Ekonomi Moneter, Inflasi, &amp; Sistem Pembayaran Digital', 'Dr. Siti Rahmania, S.E.', 'Salemba Empat', '332 EKO', 'Rak D-04 Ekonomi', '3 / 6 Eksemplar', '978-981-450-109-8', 'Bahan ajar pengayaan mata pelajaran Ekonomi fase F kelas XI dan XII dengan simulasi perbankan sentral.')" type="button">
+          Detail Buku
+        </button>
+<button class="flex-1 py-2 px-space-xs rounded-lg bg-primary hover:bg-primary-container text-on-primary text-center font-label-md text-label-md transition-colors shadow-sm" onclick="openBorrowModal('Ekonomi Moneter, Inflasi, &amp; Sistem Pembayaran Digital', '332 EKO', 'Rak D-04')" type="button">
+          Pinjam Buku
+        </button>
+</div>
+</div>
+</div>
+<!-- BOOK CATALOG: TABLE VIEW (Initially Hidden) -->
+<div class="hidden bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden mb-space-xl" id="catalog-table-container">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low text-secondary font-label-sm text-label-sm uppercase tracking-wider">
+<th class="py-space-md px-space-md">Informasi Buku &amp; Judul</th>
+<th class="py-space-md px-space-md">Penulis &amp; Penerbit</th>
+<th class="py-space-md px-space-md">Call Number</th>
+<th class="py-space-md px-space-md">Lokasi Rak</th>
+<th class="py-space-md px-space-md">Ketersediaan</th>
+<th class="py-space-md px-space-md text-right">Aksi Cepat</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-low font-body-sm text-body-sm text-on-surface">
+<!-- Row 1 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-md px-space-md font-headline-sm text-headline-sm">
+<div class="font-bold text-on-surface">Dasar-Dasar Jaringan Telekomunikasi &amp; IoT</div>
+<div class="text-secondary font-body-sm font-normal">Teknologi • ISBN 978-602-8910-12-8</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="font-medium text-on-surface">Dr. Eng. Fajar Gumilang</div>
+<div class="text-secondary">Telkom University Press</div>
+</td>
+<td class="py-space-md px-space-md font-mono font-medium text-primary">004.6 DAS</td>
+<td class="py-space-md px-space-md">Rak C-02 Telekomunikasi</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span> 4 / 6 Eks
+              </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<button class="px-space-md py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm hover:bg-primary-container transition-colors shadow-sm" onclick="openBorrowModal('Dasar-Dasar Jaringan Telekomunikasi &amp; IoT', '004.6 DAS', 'Rak C-02')" type="button">
+                Pinjam
+              </button>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-md px-space-md font-headline-sm text-headline-sm">
+<div class="font-bold text-on-surface">Fisika Kuantum &amp; Relativitas untuk Siswa SMA</div>
+<div class="text-secondary font-body-sm font-normal">Sains SMA • ISBN 978-602-019-332-1</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="font-medium text-on-surface">Prof. Joko Hendro, M.Sc.</div>
+<div class="text-secondary">Penerbit Erlangga</div>
+</td>
+<td class="py-space-md px-space-md font-mono font-medium text-primary">530 FIS</td>
+<td class="py-space-md px-space-md">Rak A-01 Sains Alam</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span> 8 / 10 Eks
+              </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<button class="px-space-md py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm hover:bg-primary-container transition-colors shadow-sm" onclick="openBorrowModal('Fisika Kuantum &amp; Relativitas untuk Siswa SMA', '530 FIS', 'Rak A-01')" type="button">
+                Pinjam
+              </button>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-md px-space-md font-headline-sm text-headline-sm">
+<div class="font-bold text-on-surface">Sejarah Indonesia Modern: Era Pergerakan hingga Reformasi</div>
+<div class="text-secondary font-body-sm font-normal">Kurikulum Merdeka • ISBN 978-602-244-651-4</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="font-medium text-on-surface">Tim Kemendikbudristek</div>
+<div class="text-secondary">Balai Pustaka</div>
+</td>
+<td class="py-space-md px-space-md font-mono font-medium text-primary">959.8 SEJ</td>
+<td class="py-space-md px-space-md">Rak E-03 Kurikulum</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-900 text-xs font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-amber-600"></span> 0 / 15 Eks (Habis)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container text-secondary/60 font-label-sm text-label-sm cursor-not-allowed" disabled="" type="button">
+                Antrean
+              </button>
+</td>
+</tr>
+<!-- Row 4 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-md px-space-md font-headline-sm text-headline-sm">
+<div class="font-bold text-on-surface">Algoritma &amp; Struktur Data Pemula dengan Python</div>
+<div class="text-secondary font-body-sm font-normal">Informatika • ISBN 978-623-7131-09-0</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="font-medium text-on-surface">Rian Adiputra, M.Kom.</div>
+<div class="text-secondary">Informatika Bandung</div>
+</td>
+<td class="py-space-md px-space-md font-mono font-medium text-primary">005.1 ALG</td>
+<td class="py-space-md px-space-md">Rak B-04 Komputer</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span> 5 / 5 Eks
+              </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<button class="px-space-md py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm hover:bg-primary-container transition-colors shadow-sm" onclick="openBorrowModal('Algoritma &amp; Struktur Data Pemula dengan Python', '005.1 ALG', 'Rak B-04')" type="button">
+                Pinjam
+              </button>
+</td>
+</tr>
+<!-- Row 5 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-md px-space-md font-headline-sm text-headline-sm">
+<div class="font-bold text-on-surface">Sosiologi Masyarakat Digital &amp; Transformasi Komunikasi</div>
+<div class="text-secondary font-body-sm font-normal">SOSHUM • ISBN 978-979-769-902-5</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="font-medium text-on-surface">Dra. Melani Wibowo</div>
+<div class="text-secondary">Rajawali Pers</div>
+</td>
+<td class="py-space-md px-space-md font-mono font-medium text-primary">301 SOS</td>
+<td class="py-space-md px-space-md">Rak D-02 Sosial Humaniora</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span> 2 / 4 Eks
+              </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<button class="px-space-md py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm hover:bg-primary-container transition-colors shadow-sm" onclick="openBorrowModal('Sosiologi Masyarakat Digital &amp; Transformasi Komunikasi', '301 SOS', 'Rak D-02')" type="button">
+                Pinjam
+              </button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- Pagination and Footer Stats for Catalog -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md p-space-md bg-surface-container-lowest rounded-xl shadow-sm">
+<div class="flex items-center gap-space-sm text-secondary font-body-sm text-body-sm">
+<span>Baris per halaman:</span>
+<select class="bg-surface-container-low text-on-surface font-label-md text-label-md px-space-sm py-1 rounded focus:outline-none">
+<option>8</option>
+<option>16</option>
+<option>32</option>
+<option>64</option>
+</select>
+<span class="hidden md:inline">• Menampilkan halaman 1 dari 178</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="w-9 h-9 rounded-lg bg-surface-container-low text-secondary/40 flex items-center justify-center cursor-not-allowed" disabled="" type="button">
+<span class="material-symbols-outlined text-sm">chevron_left</span>
+</button>
+<button class="w-9 h-9 rounded-lg bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center shadow-sm" type="button">1</button>
+<button class="w-9 h-9 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center justify-center transition-colors" type="button">2</button>
+<button class="w-9 h-9 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center justify-center transition-colors" type="button">3</button>
+<span class="px-1 text-secondary">...</span>
+<button class="w-9 h-9 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center justify-center transition-colors" type="button">178</button>
+<button class="w-9 h-9 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- MODAL: PINJAM BUKU (Quick Borrow Flow) -->
+<div class="fixed inset-0 z-50 hidden bg-inverse-surface/50 backdrop-blur-sm flex items-center justify-center p-space-md" id="borrow-modal">
+<div class="bg-surface-container-lowest rounded-xl max-w-lg w-full shadow-2xl p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs text-primary font-headline-md text-headline-md">
+<span class="material-symbols-outlined">assignment_ind</span>
+<span>Formulir Sirkulasi Peminjaman</span>
+</div>
+<button class="w-8 h-8 rounded-full hover:bg-surface-container text-secondary flex items-center justify-center" onclick="closeBorrowModal()" type="button">
+<span class="material-symbols-outlined text-lg">close</span>
+</button>
+</div>
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Judul Buku yang Dipilih:</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold" id="modal-book-title">Dasar Jaringan IoT</span>
+<div class="flex items-center gap-space-md mt-1 text-secondary font-label-sm text-label-sm">
+<span>Call: <b class="text-on-surface font-mono" id="modal-book-call">004.6 DAS</b></span>
+<span>Lokasi: <b class="text-on-surface" id="modal-book-shelf">Rak C-02</b></span>
+</div>
+</div>
+<form class="flex flex-col gap-space-md" id="borrow-form" onsubmit="handleBorrowSubmit(event)">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">NISN / Barcode Kartu Siswa Telkom</label>
+<div class="relative">
+<input class="w-full h-11 px-space-md rounded-lg bg-surface-container-low font-body-md text-body-md text-on-surface focus:outline-none focus:bg-surface-container-lowest shadow-inner" placeholder="Contoh: 0054819201" required="" type="text"/>
+<span class="material-symbols-outlined absolute right-3 top-2.5 text-secondary">contactless</span>
+</div>
+<span class="text-secondary font-body-sm text-body-sm mt-1 inline-block">Sistem akan otomatis memverifikasi batas kuota peminjaman siswa (Maks 3 buku).</span>
+</div>
+<div class="grid grid-cols-2 gap-space-md">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Durasi Peminjaman</label>
+<select class="w-full h-11 px-space-sm rounded-lg bg-surface-container-low font-body-md text-body-md text-on-surface focus:outline-none">
+<option>7 Hari (Standar)</option>
+<option>14 Hari (Buku Kurikulum)</option>
+<option>3 Hari (Referensi Eksklusif)</option>
+</select>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Tanggal Pengembalian</label>
+<input class="w-full h-11 px-space-md rounded-lg bg-surface-container font-body-md text-body-md text-secondary cursor-not-allowed" readonly="" type="text" value="21 Okt 2024"/>
+</div>
+</div>
+<div class="flex items-center justify-end gap-space-sm pt-space-xs">
+<button class="px-space-md py-2.5 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-colors" onclick="closeBorrowModal()" type="button">
+            Batalkan
+          </button>
+<button class="px-space-lg py-2.5 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md transition-colors shadow-sm" type="submit">
+            Konfirmasi Peminjaman
+          </button>
+</div>
+</form>
+</div>
+</div>
+<!-- MODAL: DETAIL & SINOPSIS BUKU -->
+<div class="fixed inset-0 z-50 hidden bg-inverse-surface/50 backdrop-blur-sm flex items-center justify-center p-space-md" id="detail-modal">
+<div class="bg-surface-container-lowest rounded-xl max-w-xl w-full shadow-2xl p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-0.5 rounded-full bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm uppercase font-semibold">
+          Detail Katalog Pustaka
+        </span>
+<button class="w-8 h-8 rounded-full hover:bg-surface-container text-secondary flex items-center justify-center" onclick="closeDetailModal()" type="button">
+<span class="material-symbols-outlined text-lg">close</span>
+</button>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-lg text-headline-lg text-on-surface font-bold leading-tight" id="det-title">Judul Buku</h3>
+<p class="font-body-md text-body-md text-secondary" id="det-meta">Penulis &amp; Penerbit</p>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-xs bg-surface-container-low p-space-md rounded-lg">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Nomor Panggil</span>
+<span class="font-label-md text-label-md font-mono text-primary font-bold" id="det-call">004.6 DAS</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Lokasi Rak</span>
+<span class="font-label-md text-label-md text-on-surface font-medium" id="det-shelf">Rak C-02</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Ketersediaan</span>
+<span class="font-label-md text-label-md text-emerald-700 font-bold" id="det-stock">4 / 6 Eks</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Nomor ISBN</span>
+<span class="font-label-md text-label-md text-on-surface font-mono" id="det-isbn">978-602-x</span>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Deskripsi &amp; Sinopsis Materi:</span>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed" id="det-desc">
+          Deskripsi lengkap isi buku...
+        </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm">verified_user</span>
+<span>Diverifikasi Pustakawan SMA Telkom</span>
+</div>
+<button class="px-space-lg py-2 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-md text-label-md transition-colors" onclick="closeDetailModal()" type="button">
+          Tutup Rincian
+        </button>
+</div>
+</div>
+</div>
+<!-- TOAST NOTIFICATION FOR OPERATIONS -->
+<div class="fixed bottom-6 right-6 z-50 hidden bg-inverse-surface text-inverse-on-surface px-space-lg py-space-md rounded-xl shadow-xl flex items-center gap-space-sm animate-bounce" id="toast-notif">
+<span class="material-symbols-outlined text-tertiary-fixed">check_circle</span>
+<span class="font-label-md text-label-md font-medium" id="toast-message">Aksi berhasil dilakukan.</span>
+</div>
+</div>
+<script>
+  // Filter chips active toggle
+  const chips = document.querySelectorAll('.category-chip');
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => {
+        c.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+        c.classList.add('bg-surface-container-low', 'text-secondary');
+      });
+      chip.classList.remove('bg-surface-container-low', 'text-secondary');
+      chip.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+    });
+  });
+
+  // View switch handler (Grid vs Table)
+  const gridBtn = document.getElementById('view-grid-btn');
+  const tableBtn = document.getElementById('view-table-btn');
+  const catalogGrid = document.getElementById('catalog-grid');
+  const catalogTable = document.getElementById('catalog-table-container');
+
+  if (gridBtn && tableBtn && catalogGrid && catalogTable) {
+    gridBtn.addEventListener('click', () => {
+      catalogGrid.classList.remove('hidden');
+      catalogTable.classList.add('hidden');
+      gridBtn.classList.add('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+      gridBtn.classList.remove('text-secondary');
+      tableBtn.classList.remove('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+      tableBtn.classList.add('text-secondary');
+    });
+
+    tableBtn.addEventListener('click', () => {
+      catalogGrid.classList.add('hidden');
+      catalogTable.classList.remove('hidden');
+      tableBtn.classList.add('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+      tableBtn.classList.remove('text-secondary');
+      gridBtn.classList.remove('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+      gridBtn.classList.add('text-secondary');
+    });
+  }
+
+  // Modals management
+  function openBorrowModal(title, call, shelf) {
+    document.getElementById('modal-book-title').innerText = title;
+    document.getElementById('modal-book-call').innerText = call;
+    document.getElementById('modal-book-shelf').innerText = shelf;
+    document.getElementById('borrow-modal').classList.remove('hidden');
+  }
+
+  function closeBorrowModal() {
+    document.getElementById('borrow-modal').classList.add('hidden');
+  }
+
+  function openDetailModal(title, author, publisher, call, shelf, stock, isbn, desc) {
+    document.getElementById('det-title').innerText = title;
+    document.getElementById('det-meta').innerText = `${author} • ${publisher}`;
+    document.getElementById('det-call').innerText = call;
+    document.getElementById('det-shelf').innerText = shelf;
+    document.getElementById('det-stock').innerText = stock;
+    document.getElementById('det-isbn').innerText = isbn;
+    document.getElementById('det-desc').innerText = desc;
+    document.getElementById('detail-modal').classList.remove('hidden');
+  }
+
+  function closeDetailModal() {
+    document.getElementById('detail-modal').classList.add('hidden');
+  }
+
+  function showToast(msg) {
+    const toast = document.getElementById('toast-notif');
+    const msgEl = document.getElementById('toast-message');
+    msgEl.innerText = msg;
+    toast.classList.remove('hidden');
+    setTimeout(() => {
+      toast.classList.add('hidden');
+    }, 3500);
+  }
+
+  function handleBorrowSubmit(e) {
+    e.preventDefault();
+    closeBorrowModal();
+    showToast('Transaksi sirkulasi berhasil dicatat ke akun siswa!');
+  }
+
+  // Quick action mock button
+  const addBtn = document.getElementById('btn-tambah-buku');
+  if (addBtn) {
+    addBtn.addEventListener('click', () => {
+      showToast('Membuka dialog pendataan koleksi buku baru untuk petugas...');
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_8px_rgba(0,0,0,0.03)] mt-auto"><div class="w-full px-margin-lg py-space-md flex flex-col md:flex-row items-center justify-between gap-space-md text-secondary font-label-md text-label-md"><div class="flex items-center gap-space-md"><span class="font-bold text-on-surface">SMA Telkom Learning Resource Center</span><span class="hidden sm:inline">•</span><span class="hidden sm:inline">© 2024 Yayasan Pendidikan Telkom</span></div><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-base">nest_clock_farsight_analog</span><span>Jam Operasional: 07.00 - 16.00 WIB</span></div><div class="flex items-center gap-space-xs font-semibold text-tertiary"><span class="w-2 h-2 rounded-full bg-tertiary-container animate-pulse"></span><span>Online &amp; Terhubung</span></div></div></div></footer></body></html>

@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Perpustakaan SMA Telkom</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"on-secondary-container": "#586579", "inverse-on-surface": "#ebf1ff", "primary-fixed": "#ffdad9", "on-tertiary-container": "#e5eced", "surface-variant": "#d5e3ff", "on-secondary": "#ffffff", "tertiary-fixed": "#dde4e5", secondary: "#525f73", "error-container": "#ffdad6", outline: "#916f6c", "inverse-primary": "#ffb3b2", "on-background": "#021c3a", "surface-container-low": "#f0f3ff", "on-tertiary": "#ffffff", "surface-container-highest": "#d5e3ff", "on-primary-container": "#ffe5e4", "on-secondary-fixed-variant": "#3b485a", "surface-bright": "#f9f9ff", "secondary-fixed": "#d6e3fb", "outline-variant": "#e6bdb9", "on-error-container": "#93000a", "on-primary": "#ffffff", "surface-container-high": "#dee8ff", "surface-dim": "#c7dbff", "secondary-container": "#d6e3fb", surface: "#f9f9ff", "tertiary-container": "#646b6c", "primary-fixed-dim": "#ffb3b2", "surface-tint": "#bd0a2e", "secondary-fixed-dim": "#bac7de", background: "#f9f9ff", "inverse-surface": "#1b3150", primary: "#a70025", "on-tertiary-fixed-variant": "#414849", "on-secondary-fixed": "#0f1c2d", "on-primary-fixed-variant": "#92001f", "on-surface": "#021c3a", "on-primary-fixed": "#410008", "primary-container": "#ce1e38", "surface-container": "#e7eeff", "tertiary-fixed-dim": "#c1c8c9", error: "#ba1a1a", "on-tertiary-fixed": "#161d1e", "on-surface-variant": "#5d3f3d", tertiary: "#4c5354", "surface-container-lowest": "#ffffff", "on-error": "#ffffff"}, borderRadius: {DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px"}, spacing: {"space-md": "1rem", "margin-sm": "1rem", "space-lg": "1.5rem", "gutter-sm": "0.75rem", "space-xs": "0.25rem", gutter: "1.5rem", margin: "1.5rem", "margin-lg": "2.5rem", "space-xl": "2rem", "space-sm": "0.5rem", "gutter-lg": "2rem"}, fontFamily: {"headline-sm": ["Plus Jakarta Sans"], "body-md": ["Inter"], "body-lg": ["Inter"], "display-lg-mobile": ["Plus Jakarta Sans"], "label-sm": ["Inter"], "display-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-md": ["Inter"], "label-lg": ["Inter"], "headline-xl": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "body-sm": ["Inter"], headline: ["Plus Jakarta Sans"], display: ["Plus Jakarta Sans"], body: ["Inter"], label: ["Inter"]}, fontSize: {"headline-sm": ["16px", {lineHeight: "24px", letterSpacing: "0", fontWeight: "600"}], "body-md": ["14px", {lineHeight: "22px", letterSpacing: "0", fontWeight: "400"}], "body-lg": ["16px", {lineHeight: "26px", letterSpacing: "-0.005em", fontWeight: "400"}], "display-lg-mobile": ["30px", {lineHeight: "38px", letterSpacing: "-0.015em", fontWeight: "800"}], "label-sm": ["11px", {lineHeight: "14px", letterSpacing: "0.04em", fontWeight: "700"}], "display-lg": ["40px", {lineHeight: "48px", letterSpacing: "-0.02em", fontWeight: "800"}], "headline-lg": ["24px", {lineHeight: "32px", letterSpacing: "-0.01em", fontWeight: "700"}], "label-md": ["12px", {lineHeight: "16px", letterSpacing: "0.02em", fontWeight: "600"}], "label-lg": ["14px", {lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "600"}], "headline-xl": ["32px", {lineHeight: "40px", letterSpacing: "-0.015em", fontWeight: "700"}], "headline-xl-mobile": ["24px", {lineHeight: "32px", letterSpacing: "-0.01em", fontWeight: "700"}], "headline-md": ["20px", {lineHeight: "28px", letterSpacing: "-0.005em", fontWeight: "600"}], "body-sm": ["12px", {lineHeight: "18px", letterSpacing: "0.01em", fontWeight: "400"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface min-h-screen flex flex-col"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-margin-lg flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-md"><img alt="Perpustakaan SMA Telkom Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Ve8yofKCDogVzH2byS4wssTghfRH0h3rfHI0M7LaDdAknzy6pFJ2jqmC0KKbRmzfFz7U5mWx4v77joVdpQGs2a_HijIAJVhJeGxDgfrWI5gHjI7TEO6JecblmI2d18q9JtQeYyAXapounr_ms4NbZw_Iwa--i2_FOdcf_xL6260nfUwnmwK7d9FHkjwUlVf6eMnNZfmWHTiTVLw9o63MvHSUwfPlZx6rULubXkxzQKpSlZygDNyrpIGTJj"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight uppercase leading-none">PERPUSTAKAAN SMA TELKOM</span><span class="font-label-sm text-label-sm text-secondary font-medium tracking-normal mt-space-xs">Sistem Presensi Kunjungan &amp; Sirkulasi Buku</span></div></div><nav class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-xl" data-active-classes="bg-primary text-on-primary font-label-md rounded-lg shadow-sm"><a aria-current="page" class="px-space-md py-space-sm transition-colors whitespace-nowrap bg-primary text-on-primary font-label-md rounded-lg shadow-sm" data-path="presensi-kunjungan-siswa" href="#">Presensi Kunjungan Siswa</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high rounded-lg transition-colors whitespace-nowrap" data-path="daftar-buku" href="#">Daftar Buku</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high rounded-lg transition-colors whitespace-nowrap" data-path="buku-dipinjam" href="#">Buku Dipinjam</a></nav></div><div class="flex items-center gap-space-md"><div class="hidden xl:flex items-center gap-space-xs bg-surface-container-low px-space-md py-space-xs rounded-full text-secondary font-label-md text-label-md"><span class="material-symbols-outlined text-base">schedule</span><span>Senin, 14 Okt 2024 • 08.45 WIB</span></div><div class="relative hidden lg:flex items-center"><span class="material-symbols-outlined absolute left-space-md text-secondary text-base pointer-events-none">search</span><input class="w-60 h-10 pl-9 pr-space-md rounded-lg bg-surface-container-low font-body-sm text-body-sm text-on-surface placeholder:text-secondary focus:outline-none focus:bg-surface-container-lowest transition-colors" placeholder="Cari NISN, barcode, atau judul..." type="text"/></div><button class="w-10 h-10 rounded-lg flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors relative" type="button"><span class="material-symbols-outlined">notifications</span><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-primary"></span></button><div class="flex items-center gap-space-sm pl-space-xs"><div class="flex flex-col text-right hidden sm:flex"><span class="font-label-md text-label-md text-on-surface leading-tight">Ibu Nurul Aini, S.Pd.</span><span class="font-label-sm text-label-sm text-secondary font-medium">Pustakawan SMA Telkom</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfk25P-O7hcQcvfeM4IkaNNVwCdToD_GgVfSFSZvNVdlTuppNw4XhJQF_VZOu_uZHUjJO5pv_UKlhKswmGAQXGHYqAC2fdeG2UszPXvcwCqzy9qbdS7kOKCdhnIigvWgjBb1s-MuKJXS6GBC9vrn4RYQv0SbTXMIOnzBSwBFe5AXnh-eTcT4cHlZLJT38nACWTd0sjzlrYB3ENs74ZSIwl9KPm0hhTRORqfMETtd5dcXDwQcmVijvI6w"/></div></div></div></header><main class="w-full pt-20 bg-background flex-1 px-margin-lg py-gutter"><div class="flex flex-col w-full">
+<!-- Banner / Header Notification Bar -->
+<div class="relative overflow-hidden rounded-xl bg-gradient-to-r from-surface-container-high via-surface-container-lowest to-surface-container-high p-gutter shadow-sm mb-gutter">
+<div class="absolute -right-10 -bottom-10 w-72 h-72 rounded-full bg-primary/5 blur-3xl pointer-events-none"></div>
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-lg relative z-10">
+<div class="max-w-3xl">
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md mb-space-xs uppercase tracking-wider">
+<span class="material-symbols-outlined text-base">verified</span>
+<span>Sistem Presensi Otomatis SMA Telkom</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">Formulir Presensi Pengunjung Perpustakaan</h1>
+<p class="font-body-md text-body-md text-secondary mt-space-xs">Silakan pilih tingkat kelas, rombel, dan isi identitas kunjungan harian Anda untuk pendataan literasi dan peminjaman buku.</p>
+</div>
+<div class="flex flex-wrap sm:flex-nowrap items-center gap-space-md">
+<button class="flex items-center gap-space-sm px-space-lg py-space-md bg-secondary text-on-secondary rounded-lg font-label-lg text-label-lg shadow-sm hover:opacity-95 active:scale-95 transition-all" id="quick-rfid-btn" type="button">
+<span class="material-symbols-outlined text-xl">qr_code_scanner</span>
+<span>Tap Kartu Pelajar / Barcode</span>
+</button>
+<button class="flex items-center gap-space-sm px-space-lg py-space-md bg-surface-container-lowest text-on-surface rounded-lg font-label-lg text-label-lg shadow-sm hover:bg-surface-container transition-all" type="button">
+<span class="material-symbols-outlined text-xl">help_outline</span>
+<span>Panduan Tata Tertib</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Metric Summary Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-gutter mb-gutter">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Total Kunjungan Hari Ini</span>
+<div class="flex items-baseline gap-space-xs mt-space-xs">
+<span class="font-display-lg text-display-lg text-on-surface leading-none">142</span>
+<span class="font-label-md text-label-md text-primary font-bold">Siswa</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-lg bg-primary-fixed/50 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">groups</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="text-tertiary font-bold flex items-center"><span class="material-symbols-outlined text-base">trending_up</span> +18%</span>
+<span>dibandingkan kemarin jam yang sama</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Kelas Teraktif Hari Ini</span>
+<div class="flex items-baseline gap-space-xs mt-space-xs">
+<span class="font-headline-lg text-headline-lg text-on-surface leading-tight">X-4 &amp; XI MISOS 2</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-2xl">trophy</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="font-bold text-on-surface">32 kunjungan</span>
+<span>dari target 36 siswa per rombel</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Keperluan Terbanyak</span>
+<div class="flex items-baseline gap-space-xs mt-space-xs">
+<span class="font-headline-lg text-headline-lg text-on-surface leading-tight">Membaca &amp; Tugas</span>
+<span class="font-label-md text-label-md text-tertiary font-bold">(68%)</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-lg bg-tertiary-fixed/60 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-2xl">auto_stories</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-base text-tertiary">school</span>
+<span>Modul Kurikulum Merdeka Terfavorit</span>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Kapasitas Ruang Baca</span>
+<div class="flex items-baseline gap-space-xs mt-space-xs">
+<span class="font-display-lg text-display-lg text-on-surface leading-none">48</span>
+<span class="font-headline-sm text-headline-sm text-secondary">/ 80 Kursi</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-2xl">event_seat</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm">
+<div class="w-full bg-surface-container-high h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 60%;"></div>
+</div>
+<div class="flex justify-between items-center text-secondary font-label-sm text-label-sm mt-space-xs">
+<span>Tersedia: 32 Kursi</span>
+<span class="text-primary font-bold">60% Penuh</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Two-Column Interactive Workdesk -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- LEFT COLUMN: Main Form Presensi (7 Cols) -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-gutter shadow-sm relative">
+<div class="flex items-center justify-between pb-space-md mb-space-lg bg-surface-container-low/50 -mx-gutter -mt-gutter p-gutter rounded-t-xl">
+<div class="flex items-center gap-space-sm">
+<span class="w-2.5 h-6 bg-primary rounded-full"></span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Input Presensi Pengunjung</h2>
+</div>
+<span class="font-label-sm text-label-sm bg-surface-container px-space-md py-space-xs rounded-full text-secondary">
+          Sesi Belajar Aktif
+        </span>
+</div>
+<form class="space-y-space-lg" id="attendance-form">
+<!-- Grade Selector Level Pills -->
+<div>
+<label class="block font-label-lg text-label-lg text-on-surface mb-space-sm">1. Pilih Tingkat Kelas <span class="text-primary">*</span></label>
+<div class="grid grid-cols-3 gap-space-sm" id="grade-pill-container">
+<button class="grade-tab-btn active-grade-btn py-space-md px-space-sm rounded-lg font-label-lg text-label-lg text-center transition-all bg-primary text-on-primary shadow-sm flex flex-col items-center justify-center" data-grade="10" type="button">
+<span>Kelas 10</span>
+<span class="text-xs opacity-80 font-normal">Fase E (11 Rombel)</span>
+</button>
+<button class="grade-tab-btn py-space-md px-space-sm rounded-lg font-label-lg text-label-lg text-center transition-all bg-surface-container-low text-on-surface hover:bg-surface-container-high flex flex-col items-center justify-center" data-grade="11" type="button">
+<span>Kelas 11</span>
+<span class="text-xs opacity-70 font-normal">Fase F (10 Rombel)</span>
+</button>
+<button class="grade-tab-btn py-space-md px-space-sm rounded-lg font-label-lg text-label-lg text-center transition-all bg-surface-container-low text-on-surface hover:bg-surface-container-high flex flex-col items-center justify-center" data-grade="12" type="button">
+<span>Kelas 12</span>
+<span class="text-xs opacity-70 font-normal">Fase F Lanjutan (10 Rombel)</span>
+</button>
+</div>
+</div>
+<!-- Dynamic Class Rombel Selector -->
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<label class="block font-label-lg text-label-lg text-on-surface">2. Pilih Rombongan Belajar (Rombel) <span class="text-primary">*</span></label>
+<span class="font-label-md text-label-md text-primary font-bold" id="selected-class-label">Terpilih: X-1</span>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-xl">
+<!-- Grade 10 Classes -->
+<div class="class-group flex flex-wrap gap-space-xs" id="classes-grade-10">
+<button class="rombel-pill bg-primary text-on-primary font-label-md text-label-md px-space-md py-space-sm rounded-lg transition-all shadow-sm" type="button">X-1</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">X-2</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">X-3</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">X-4</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">X-5</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">X-6</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">X-7</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">X-8</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">X-9</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">X-10</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">X-11</button>
+</div>
+<!-- Grade 11 Classes (hidden initially) -->
+<div class="class-group hidden flex flex-wrap gap-space-xs" id="classes-grade-11">
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XI MISOS 1</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XI MISOS 2</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XI MISOS 3</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XI MISOS 4</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XI MIGO 1</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XI MIGO 2</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XI MIGO 3</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XI SOSHUM 1</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XI SOSHUM 2</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XI SOSHUM 3</button>
+</div>
+<!-- Grade 12 Classes (hidden initially) -->
+<div class="class-group hidden flex flex-wrap gap-space-xs" id="classes-grade-12">
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XII MISOS 1</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XII MISOS 2</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XII MISOS 3</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XII MISOS 4</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XII MIGO 1</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XII MIGO 2</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XII MIGO 3</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XII SOSHUM 1</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XII SOSHUM 2</button>
+<button class="rombel-pill bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded-lg hover:bg-surface-container transition-all" type="button">XII SOSHUM 3</button>
+</div>
+</div>
+</div>
+<!-- Student ID & Name Inputs -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-label-lg text-label-lg text-on-surface mb-space-xs" for="student-nis">
+              3. NISN / NIS Telkom <span class="text-primary">*</span>
+</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-space-md text-secondary">badge</span>
+<input class="w-full h-12 pl-12 pr-28 rounded-lg bg-surface-container-low font-body-md text-body-md text-on-surface placeholder:text-secondary focus:outline-none focus:bg-surface-container-lowest shadow-sm transition-all" id="student-nis" placeholder="Contoh: 212210042" required="" type="text"/>
+<button class="absolute right-1 px-space-sm py-1.5 bg-secondary text-on-secondary rounded-lg font-label-sm text-label-sm flex items-center gap-1 hover:opacity-90" id="scan-barcode-simulator" title="Simulasi Pemindaian RFID/Barcode" type="button">
+<span class="material-symbols-outlined text-sm">barcode_reader</span>
+<span>Scan</span>
+</button>
+</div>
+</div>
+<div>
+<label class="block font-label-lg text-label-lg text-on-surface mb-space-xs" for="student-name">
+              4. Nama Lengkap Siswa <span class="text-primary">*</span>
+</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-space-md text-secondary">person</span>
+<input class="w-full h-12 pl-12 pr-space-md rounded-lg bg-surface-container-low font-body-md text-body-md text-on-surface placeholder:text-secondary focus:outline-none focus:bg-surface-container-lowest shadow-sm transition-all" id="student-name" placeholder="Masukkan nama siswa" required="" type="text"/>
+</div>
+</div>
+</div>
+<!-- Purpose of Visit (Tujuan / Keperluan) -->
+<div>
+<label class="block font-label-lg text-label-lg text-on-surface mb-space-sm">
+            5. Tujuan / Keperluan Kunjungan <span class="text-primary">*</span>
+</label>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-space-sm" id="purpose-container">
+<button class="purpose-pill active-purpose py-space-sm px-space-md rounded-lg bg-primary text-on-primary font-label-md text-label-md text-left flex items-center gap-space-sm shadow-sm transition-all" data-purpose="Membaca Buku" type="button">
+<span class="material-symbols-outlined text-base">menu_book</span>
+<span>Membaca Buku</span>
+</button>
+<button class="purpose-pill py-space-sm px-space-md rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md text-left flex items-center gap-space-sm hover:bg-surface-container-high transition-all" data-purpose="Peminjaman / Pengembalian" type="button">
+<span class="material-symbols-outlined text-base">sync_alt</span>
+<span>Pinjam / Kembali</span>
+</button>
+<button class="purpose-pill py-space-sm px-space-md rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md text-left flex items-center gap-space-sm hover:bg-surface-container-high transition-all" data-purpose="Tugas Kelompok" type="button">
+<span class="material-symbols-outlined text-base">group_work</span>
+<span>Tugas Kelompok</span>
+</button>
+<button class="purpose-pill py-space-sm px-space-md rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md text-left flex items-center gap-space-sm hover:bg-surface-container-high transition-all" data-purpose="Literasi Mandiri" type="button">
+<span class="material-symbols-outlined text-base">psychology</span>
+<span>Literasi Mandiri</span>
+</button>
+<button class="purpose-pill py-space-sm px-space-md rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md text-left flex items-center gap-space-sm hover:bg-surface-container-high transition-all sm:col-span-2" data-purpose="Akses Komputer &amp; E-Perpus" type="button">
+<span class="material-symbols-outlined text-base">terminal</span>
+<span>Akses Komputer &amp; E-Perpus Telkom</span>
+</button>
+</div>
+</div>
+<!-- Seating Area Selection -->
+<div>
+<label class="block font-label-lg text-label-lg text-on-surface mb-space-sm">
+            6. Pilihan Area Baca / Meja Belajar
+          </label>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm" id="area-container">
+<button class="area-pill py-space-sm px-space-md rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md text-left flex flex-col hover:bg-surface-container-high transition-all" data-area="Area A - Diskusi" type="button">
+<span class="font-bold flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-secondary"></span>Area A - Diskusi</span>
+<span class="text-xs text-secondary mt-0.5">Meja bundar &amp; Whiteboard</span>
+</button>
+<button class="area-pill active-area py-space-sm px-space-md rounded-lg bg-secondary text-on-secondary font-label-md text-label-md text-left flex flex-col shadow-sm transition-all" data-area="Area B - Hening" type="button">
+<span class="font-bold flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-on-tertiary-container"></span>Area B - Hening</span>
+<span class="text-xs opacity-80 mt-0.5">Kubikel mandiri &amp; stopkontak</span>
+</button>
+<button class="area-pill py-space-sm px-space-md rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md text-left flex flex-col hover:bg-surface-container-high transition-all" data-area="Area Multimedia" type="button">
+<span class="font-bold flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-tertiary"></span>Area Multimedia</span>
+<span class="text-xs text-secondary mt-0.5">PC All-in-One &amp; Headset</span>
+</button>
+</div>
+</div>
+<!-- Action CTA Button -->
+<div class="pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-base text-tertiary">schedule</span>
+<span id="live-clock">Mencatat waktu server otomatis</span>
+</div>
+<button class="w-full sm:w-auto px-space-xl py-space-md bg-primary-container text-on-primary font-headline-sm text-headline-sm rounded-lg shadow-md hover:bg-primary active:scale-95 transition-all flex items-center justify-center gap-space-sm" id="submit-checkin-btn" type="submit">
+<span class="material-symbols-outlined">how_to_reg</span>
+<span>Simpan Presensi Masuk (Check-In)</span>
+</button>
+</div>
+</form>
+</div>
+<!-- RIGHT COLUMN: Log Kunjungan & Realtime Activity (5 Cols) -->
+<div class="lg:col-span-5 flex flex-col gap-gutter">
+<!-- Top Box: Realtime Attendance Log -->
+<div class="bg-surface-container-lowest rounded-xl p-gutter shadow-sm flex flex-col">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-md">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span>Log Kunjungan Hari Ini</span>
+</h3>
+<p class="font-body-sm text-body-sm text-secondary">Aktivitas presensi real-time di perpustakaan</p>
+</div>
+<button class="flex items-center gap-space-xs px-space-md py-space-sm bg-surface-container text-on-surface font-label-md text-label-md rounded-lg hover:bg-surface-container-high transition-colors shadow-sm self-start sm:self-auto" id="export-btn" type="button">
+<span class="material-symbols-outlined text-base">download</span>
+<span>Unduh Laporan</span>
+</button>
+</div>
+<!-- Filter Bar -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-space-sm mb-space-sm scrollbar-none">
+<button class="log-filter-btn px-space-md py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm whitespace-nowrap shadow-sm" data-filter="all" type="button">Semua (142)</button>
+<button class="log-filter-btn px-space-md py-1 rounded-full bg-surface-container-low text-on-surface font-label-sm text-label-sm whitespace-nowrap hover:bg-surface-container" data-filter="X" type="button">Kelas X (54)</button>
+<button class="log-filter-btn px-space-md py-1 rounded-full bg-surface-container-low text-on-surface font-label-sm text-label-sm whitespace-nowrap hover:bg-surface-container" data-filter="XI" type="button">Kelas XI (48)</button>
+<button class="log-filter-btn px-space-md py-1 rounded-full bg-surface-container-low text-on-surface font-label-sm text-label-sm whitespace-nowrap hover:bg-surface-container" data-filter="XII" type="button">Kelas XII (40)</button>
+</div>
+<!-- Search Table Inside Feed -->
+<div class="relative mb-space-md">
+<span class="material-symbols-outlined absolute left-space-sm top-2.5 text-secondary text-base">filter_alt</span>
+<input class="w-full h-9 pl-9 pr-space-md bg-surface-container-low rounded-lg font-body-sm text-body-sm text-on-surface placeholder:text-secondary focus:outline-none focus:bg-surface-container-lowest transition-all" id="feed-search" placeholder="Cari nama atau NIS di daftar hadir..." type="text"/>
+</div>
+<!-- Scrollable Feed List -->
+<div class="space-y-space-sm max-h-[440px] overflow-y-auto pr-space-xs" id="visitor-feed-list">
+<!-- Visitor Item 1 -->
+<div class="visitor-item p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col gap-space-xs" data-grade="X">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm px-space-sm py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold">X-4</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Arya Pratama Putra</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary">10:42 WIB</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm text-secondary">
+<span>NIS: 232410088 • Riset Fisika Telekomunikasi</span>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-tertiary bg-on-tertiary-container/30 px-space-sm py-0.5 rounded-full">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-container animate-pulse"></span>
+<span>Sedang di Ruang Baca</span>
+</span>
+<button class="checkout-trigger font-label-sm text-label-sm text-primary hover:underline flex items-center gap-0.5" type="button">
+<span>Check-Out</span>
+<span class="material-symbols-outlined text-sm">logout</span>
+</button>
+</div>
+</div>
+<!-- Visitor Item 2 -->
+<div class="visitor-item p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col gap-space-xs" data-grade="XI">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm px-space-sm py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed-variant font-bold">XI MISOS 2</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Nabila Syahrani</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary">10:35 WIB</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm text-secondary">
+<span>NIS: 222310115 • Pinjam Buku Coding Python</span>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-tertiary bg-on-tertiary-container/30 px-space-sm py-0.5 rounded-full">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-container animate-pulse"></span>
+<span>Sedang di Ruang Baca</span>
+</span>
+<button class="checkout-trigger font-label-sm text-label-sm text-primary hover:underline flex items-center gap-0.5" type="button">
+<span>Check-Out</span>
+<span class="material-symbols-outlined text-sm">logout</span>
+</button>
+</div>
+</div>
+<!-- Visitor Item 3 -->
+<div class="visitor-item p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col gap-space-xs" data-grade="XII">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm px-space-sm py-0.5 rounded bg-surface-container-high text-on-secondary font-bold">XII MIGO 1</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Muhammad Faiz Zikri</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary">10:18 WIB</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm text-secondary">
+<span>NIS: 212210042 • Akses E-Journal Telkom University</span>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-tertiary bg-on-tertiary-container/30 px-space-sm py-0.5 rounded-full">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-container animate-pulse"></span>
+<span>Sedang di Ruang Baca</span>
+</span>
+<button class="checkout-trigger font-label-sm text-label-sm text-primary hover:underline flex items-center gap-0.5" type="button">
+<span>Check-Out</span>
+<span class="material-symbols-outlined text-sm">logout</span>
+</button>
+</div>
+</div>
+<!-- Visitor Item 4 (Already Checked Out) -->
+<div class="visitor-item p-space-md rounded-xl bg-surface-container-lowest opacity-80 hover:opacity-100 transition-all flex flex-col gap-space-xs" data-grade="X">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm px-space-sm py-0.5 rounded bg-surface-container text-secondary font-bold">X-11</span>
+<span class="font-headline-sm text-headline-sm text-secondary line-through">Dinda Kirana S.</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary">09:15 - 10:05 WIB</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm text-secondary">
+<span>NIS: 232410190 • Pengembalian Novel Sastra</span>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-secondary bg-surface-container px-space-sm py-0.5 rounded-full">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Selesai / Check-Out</span>
+</span>
+<span class="font-label-sm text-label-sm text-secondary">Durasi 50 Menit</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Box: Visual Library Zone & Spot Info -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-xl">map</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Denah &amp; Kepadatan Area</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary">Lantai 2 Gedung B</span>
+</div>
+<div class="relative rounded-xl overflow-hidden bg-surface-container-high h-40 flex items-center justify-center p-space-md">
+<img class="absolute inset-0 w-full h-full object-cover mix-blend-multiply opacity-35" data-alt="Modern high school learning resource center interior with organized wooden bookshelves, contemporary reading pods, bright floor-to-ceiling windows, and Telkom red architectural accent details with students studying quietly." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCW9ykLxEN8QM-ToMAswjEIH2QwPndqvxO5NldcnESoCJ_7hxFo6eFBoqWw7qAwn3IETN6X7hEs3R8txnqAs6X6jbvTg8fMkRs-4cMSR6BdeD_eWMjAumm43Mj_8Ycr5yJ6OjplepQDeVMoJdCuhJgAbpqa-1qoPknggaSyc5nF0-MCygydCUogVgSbC7i1q6Jmf821_Hydp1YYMwAAjwydLZXY35nAqkWpG3kBX96mSSsBGf7YMznBKQ"/>
+<div class="relative z-10 w-full grid grid-cols-3 gap-space-xs text-center">
+<div class="bg-surface-container-lowest/90 backdrop-blur-sm p-space-sm rounded-lg shadow-sm">
+<span class="block font-label-sm text-label-sm font-bold text-on-surface">Area A</span>
+<span class="block text-xs text-tertiary font-bold mt-1">16 / 24 Kursi</span>
+<span class="block text-[10px] text-secondary">Diskusi</span>
+</div>
+<div class="bg-surface-container-lowest/90 backdrop-blur-sm p-space-sm rounded-lg shadow-sm">
+<span class="block font-label-sm text-label-sm font-bold text-on-surface">Area B</span>
+<span class="block text-xs text-primary font-bold mt-1">24 / 36 Kursi</span>
+<span class="block text-[10px] text-secondary">Zona Hening</span>
+</div>
+<div class="bg-surface-container-lowest/90 backdrop-blur-sm p-space-sm rounded-lg shadow-sm">
+<span class="block font-label-sm text-label-sm font-bold text-on-surface">Multimedia</span>
+<span class="block text-xs text-tertiary font-bold mt-1">8 / 20 Unit</span>
+<span class="block text-[10px] text-secondary">PC Lab</span>
+</div>
+</div>
+</div>
+<div class="mt-space-md flex items-center justify-between text-secondary font-label-sm text-label-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-tertiary">wifi</span>
+<span>Telkom_LRC_Student (5G Ready)</span>
+</span>
+<span class="text-primary font-medium">Batas Kunjungan: 120 Menit</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Client-side Script -->
+<script>
+    (function initAttendanceSystem() {
+      // Elements
+      const gradeButtons = document.querySelectorAll('.grade-tab-btn');
+      const classGroups = {
+        '10': document.getElementById('classes-grade-10'),
+        '11': document.getElementById('classes-grade-11'),
+        '12': document.getElementById('classes-grade-12')
+      };
+      const selectedClassLabel = document.getElementById('selected-class-label');
+      let currentSelectedClass = 'X-1';
+      let currentSelectedPurpose = 'Membaca Buku';
+      let currentSelectedArea = 'Area B - Hening';
+
+      // 1. Grade Tab Switching
+      gradeButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const grade = btn.getAttribute('data-grade');
+          
+          gradeButtons.forEach(b => {
+            b.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+            b.classList.add('bg-surface-container-low', 'text-on-surface');
+          });
+
+          btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+          btn.classList.remove('bg-surface-container-low', 'text-on-surface');
+
+          // Show matching rombel group
+          Object.keys(classGroups).forEach(key => {
+            if (key === grade) {
+              classGroups[key].classList.remove('hidden');
+              // Automatically pick the first rombel button of this group
+              const firstRombel = classGroups[key].querySelector('.rombel-pill');
+              if (firstRombel) {
+                firstRombel.click();
+              }
+            } else {
+              classGroups[key].classList.add('hidden');
+            }
+          });
+        });
+      });
+
+      // 2. Rombel Pill Selection
+      const allRombelButtons = document.querySelectorAll('.rombel-pill');
+      allRombelButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          allRombelButtons.forEach(b => {
+            b.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+            b.classList.add('bg-surface-container-lowest', 'text-on-surface');
+          });
+
+          btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+          btn.classList.remove('bg-surface-container-lowest', 'text-on-surface');
+          currentSelectedClass = btn.textContent.trim();
+          selectedClassLabel.textContent = 'Terpilih: ' + currentSelectedClass;
+        });
+      });
+
+      // 3. Purpose Pill Selection
+      const purposeButtons = document.querySelectorAll('.purpose-pill');
+      purposeButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          purposeButtons.forEach(b => {
+            b.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+            b.classList.add('bg-surface-container-low', 'text-on-surface');
+          });
+
+          btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+          btn.classList.remove('bg-surface-container-low', 'text-on-surface');
+          currentSelectedPurpose = btn.getAttribute('data-purpose');
+        });
+      });
+
+      // 4. Area Pill Selection
+      const areaButtons = document.querySelectorAll('.area-pill');
+      areaButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          areaButtons.forEach(b => {
+            b.classList.remove('bg-secondary', 'text-on-secondary', 'shadow-sm');
+            b.classList.add('bg-surface-container-low', 'text-on-surface');
+          });
+
+          btn.classList.add('bg-secondary', 'text-on-secondary', 'shadow-sm');
+          btn.classList.remove('bg-surface-container-low', 'text-on-surface');
+          currentSelectedArea = btn.getAttribute('data-area');
+        });
+      });
+
+      // 5. Scan Barcode Simulator
+      const scanBtn = document.getElementById('scan-barcode-simulator');
+      const rfidHeaderBtn = document.getElementById('quick-rfid-btn');
+      const nisInput = document.getElementById('student-nis');
+      const nameInput = document.getElementById('student-name');
+
+      const mockStudents = [
+        { nis: '232410045', name: 'Alifia Zahra Rahmawati', grade: '10', rombel: 'X-4' },
+        { nis: '222310118', name: 'Bintang Raditya Ananta', grade: '11', rombel: 'XI MISOS 2' },
+        { nis: '212210089', name: 'Farrel Danendra Wicaksono', grade: '12', rombel: 'XII MIGO 1' },
+        { nis: '232410204', name: 'Citra Permata Kusuma', grade: '10', rombel: 'X-1' }
+      ];
+
+      function simulateScan() {
+        const student = mockStudents[Math.floor(Math.random() * mockStudents.length)];
+        nisInput.value = student.nis;
+        nameInput.value = student.name;
+        
+        // Auto pick grade
+        const gradeBtn = document.querySelector(`.grade-tab-btn[data-grade="${student.grade}"]`);
+        if (gradeBtn) gradeBtn.click();
+
+        // Auto pick rombel
+        setTimeout(() => {
+          const group = classGroups[student.grade];
+          if (group) {
+            const pills = group.querySelectorAll('.rombel-pill');
+            pills.forEach(p => {
+              if (p.textContent.trim() === student.rombel) {
+                p.click();
+              }
+            });
+          }
+        }, 50);
+
+        nisInput.classList.add('ring-2', 'ring-primary');
+        setTimeout(() => nisInput.classList.remove('ring-2', 'ring-primary'), 1000);
+      }
+
+      if (scanBtn) scanBtn.addEventListener('click', simulateScan);
+      if (rfidHeaderBtn) rfidHeaderBtn.addEventListener('click', simulateScan);
+
+      // 6. Form Submission / Check-In Logic
+      const attendanceForm = document.getElementById('attendance-form');
+      const feedList = document.getElementById('visitor-feed-list');
+
+      attendanceForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const nis = nisInput.value.trim();
+        const name = nameInput.value.trim();
+
+        if (!nis || !name) {
+          alert('Mohon lengkapi NIS dan Nama Siswa.');
+          return;
+        }
+
+        const now = new Date();
+        const timeStr = String(now.getHours()).padStart(2, '0') + ':' + String(now.getMinutes()).padStart(2, '0') + ' WIB';
+
+        // Grade label prefix
+        const gradePrefix = currentSelectedClass.startsWith('X-') ? 'X' : (currentSelectedClass.startsWith('XI') ? 'XI' : 'XII');
+        const badgeColor = gradePrefix === 'X' ? 'bg-primary-fixed text-on-primary-fixed-variant' : (gradePrefix === 'XI' ? 'bg-secondary-fixed text-on-secondary-fixed-variant' : 'bg-surface-container-high text-on-secondary');
+
+        // Create new item
+        const newItem = document.createElement('div');
+        newItem.className = 'visitor-item p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col gap-space-xs animate-fadeIn';
+        newItem.setAttribute('data-grade', gradePrefix);
+        newItem.innerHTML = `
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-space-xs">
+              <span class="font-label-sm text-label-sm px-space-sm py-0.5 rounded ${badgeColor} font-bold">${currentSelectedClass}</span>
+              <span class="font-headline-sm text-headline-sm text-on-surface">${name}</span>
+            </div>
+            <span class="font-label-sm text-label-sm text-secondary">${timeStr}</span>
+          </div>
+          <div class="flex items-center justify-between font-body-sm text-body-sm text-secondary">
+            <span>NIS: ${nis} &bull; ${currentSelectedPurpose} (${currentSelectedArea.split(' - ')[0]})</span>
+          </div>
+          <div class="flex items-center justify-between pt-space-xs">
+            <span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-tertiary bg-on-tertiary-container/30 px-space-sm py-0.5 rounded-full">
+              <span class="w-1.5 h-1.5 rounded-full bg-tertiary-container animate-pulse"></span>
+              <span>Sedang di Ruang Baca</span>
+            </span>
+            <button type="button" class="checkout-trigger font-label-sm text-label-sm text-primary hover:underline flex items-center gap-0.5">
+              <span>Check-Out</span>
+              <span class="material-symbols-outlined text-sm">logout</span>
+            </button>
+          </div>
+        `;
+
+        feedList.insertBefore(newItem, feedList.firstChild);
+        bindCheckoutTriggers();
+
+        // Clear input values
+        nisInput.value = '';
+        nameInput.value = '';
+
+        // Toast feedback
+        const toast = document.createElement('div');
+        toast.className = 'fixed bottom-6 right-6 bg-secondary text-on-secondary px-space-lg py-space-md rounded-xl shadow-xl flex items-center gap-space-sm z-50 animate-bounce';
+        toast.innerHTML = `
+          <span class="material-symbols-outlined text-tertiary-fixed">check_circle</span>
+          <span class="font-label-md text-label-md">Presensi berhasil dicatat untuk ${name}!</span>
+        `;
+        document.body.appendChild(toast);
+        setTimeout(() => toast.remove(), 3500);
+      });
+
+      // 7. Check-Out Trigger handler
+      function bindCheckoutTriggers() {
+        document.querySelectorAll('.checkout-trigger').forEach(btn => {
+          btn.onclick = function() {
+            const parentCard = this.closest('.visitor-item');
+            if (!parentCard) return;
+            
+            const badgeSpan = parentCard.querySelector('.inline-flex');
+            if (badgeSpan) {
+              badgeSpan.className = 'inline-flex items-center gap-1 font-label-sm text-label-sm text-secondary bg-surface-container px-space-sm py-0.5 rounded-full';
+              badgeSpan.innerHTML = '<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span>Selesai / Check-Out</span>';
+            }
+            this.parentElement.innerHTML = '<span class="font-label-sm text-label-sm text-secondary">Check-Out Baru Saja</span>';
+            parentCard.classList.add('opacity-75');
+          };
+        });
+      }
+      bindCheckoutTriggers();
+
+      // 8. Feed Filter by Grade
+      const filterButtons = document.querySelectorAll('.log-filter-btn');
+      filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterButtons.forEach(b => {
+            b.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+            b.classList.add('bg-surface-container-low', 'text-on-surface');
+          });
+          btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+          btn.classList.remove('bg-surface-container-low', 'text-on-surface');
+
+          const filter = btn.getAttribute('data-filter');
+          const items = feedList.querySelectorAll('.visitor-item');
+          items.forEach(item => {
+            if (filter === 'all' || item.getAttribute('data-grade') === filter) {
+              item.classList.remove('hidden');
+            } else {
+              item.classList.add('hidden');
+            }
+          });
+        });
+      });
+
+      // 9. Feed Search
+      const searchInput = document.getElementById('feed-search');
+      if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+          const val = e.target.value.toLowerCase();
+          const items = feedList.querySelectorAll('.visitor-item');
+          items.forEach(item => {
+            const text = item.textContent.toLowerCase();
+            if (text.includes(val)) {
+              item.classList.remove('hidden');
+            } else {
+              item.classList.add('hidden');
+            }
+          });
+        });
+      }
+
+      // 10. Live Clock Update
+      const clockEl = document.getElementById('live-clock');
+      function updateClock() {
+        if (!clockEl) return;
+        const now = new Date();
+        const time = now.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+        clockEl.textContent = 'Server Time: ' + time + ' WIB';
+      }
+      setInterval(updateClock, 1000);
+      updateClock();
+
+      // 11. Export Button Simulation
+      const exportBtn = document.getElementById('export-btn');
+      if (exportBtn) {
+        exportBtn.addEventListener('click', () => {
+          alert('Mengunduh Laporan Rekap Presensi Kunjungan SMA Telkom format (.xlsx)...');
+        });
+      }
+
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_8px_rgba(0,0,0,0.03)] mt-auto"><div class="w-full px-margin-lg py-space-md flex flex-col md:flex-row items-center justify-between gap-space-md text-secondary font-label-md text-label-md"><div class="flex items-center gap-space-md"><span class="font-bold text-on-surface">SMA Telkom Learning Resource Center</span><span class="hidden sm:inline">•</span><span class="hidden sm:inline">© 2024 Yayasan Pendidikan Telkom</span></div><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-base">nest_clock_farsight_analog</span><span>Jam Operasional: 07.00 - 16.00 WIB</span></div><div class="flex items-center gap-space-xs font-semibold text-tertiary"><span class="w-2 h-2 rounded-full bg-tertiary-container animate-pulse"></span><span>Online &amp; Terhubung</span></div></div></div></footer></body></html>
